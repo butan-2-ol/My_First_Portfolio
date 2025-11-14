@@ -7,33 +7,32 @@
   </head>
   <body>
     <header>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <article>
-        <!-- Example embedded tweet (replace the URL with any tweet URL you want) -->
         <blockquote class="twitter-tweet">
-          <p lang="en" dir="ltr">This is an example Tweet embed for ALX assignment.</p>&mdash; Example User (@example) <a href="https://twitter.com/example/status/1234567890123456789">January 1, 2025</a>
+          <p lang="en" dir="ltr">This is an example Tweet embed for ALX assignment.</p>
+          &mdash; Example User (@example)
+          <a href="https://twitter.com/example/status/1234567890123456789">January 1, 2025</a>
         </blockquote>
 
-        <!-- Twitter widgets script (required to render embeds) -->
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-        <!-- Link back to home page -->
         <p><a href="index.html">Back to home</a></p>
       </article>
 
-      <aside>
-        <p>placeholder to add comment thread later</p>
-      </aside>
+      <aside>placeholder to add comment thread later</aside>
     </main>
 
-    <footer>
-<p>Made by Champ <a href="https://github.com/butan-2-ol" target="_blank">here</a>.</p>      
-    </footer>
+    <footer>Made by Amartey - <a href="https://github.com/butan-2-ol" target="_blank">here</a></footer>
+
+    <!-- Script placed AFTER main to avoid regex issues -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   </body>
 </html>
